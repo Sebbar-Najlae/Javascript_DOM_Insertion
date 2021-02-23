@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>INSERTION</title>
+   
+</head>
+<body>
+    <script language="javascript" type="text/javascript">
+    function inserer (){
+        var text=document.getElementById("nom").value;
+        document.getElementById("p").innerHTML+=text+"<br/>"
+    }
+    </script>
+
+    <form>
+        <input type="text" id="nom">
+        <input type="button" id="bt" onclick="inserer()" value="inserer">
+        <p id="p"></p>
+    </form>
+</body>
+</html>
